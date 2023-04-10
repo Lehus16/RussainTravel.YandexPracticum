@@ -29,7 +29,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/__image/place__image.css);
 @import url(../blocks/places/place/__link/place__link.css);
-@import url(./blocks/places/place/__paragraph/place__paragraph.css);
+@import url(../blocks/places/place/__paragraph/place__paragraph.css);
 @import url(../blocks/places/place/__paragraph/_margin/place__paragraph_margin_top.css);
 @import url(../blocks/places/place/__subtitle/place__subtitle.css);
 @import url(../blocks/places/place/__title/place__title.css);
