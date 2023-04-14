@@ -1,6 +1,5 @@
-
 @media screen and (max-width: 425px) {
-  .logo_place-header {
+  .header__logo {
     width: 142px;
     height: 42px;
   }
