@@ -1,10 +1,13 @@
 .header {
   width: 95%;
   margin: 28px auto 56px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr min-content min-content;
+  grid-auto-rows: min-content;
+  align-items: end;
 }
-/* 
+/*
 @media screen and (max-width: 1024px) {
   .header {
    margin: 28px 48px 48px;
