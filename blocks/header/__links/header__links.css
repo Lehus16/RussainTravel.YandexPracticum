@@ -1,5 +1,5 @@
-/* .header__links {
-  align-self: flex-end;
+.header__links {
   display: flex;
   justify-content: space-between;
-} */
+  align-items: flex-end;
+}
