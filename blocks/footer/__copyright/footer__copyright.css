@@ -2,4 +2,12 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.10;
+  align-self: flex-end;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 495px) {
+  .footer__copyright {
+    align-self: normal;
+  }
 }

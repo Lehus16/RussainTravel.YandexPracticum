@@ -1,24 +1,34 @@
+/* На 768 текст переносится криво в связи с чем блок не соотвествует макету, так как появляются отступы. Не понимаю как это решить. */
+
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns:minmax(152px, 460px) 1fr;
   margin-bottom: 80px;
+  gap: 40px;
 }
 
 .place:last-of-type {
-  margin-bottom: 92px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place{
+    grid-template-columns: minmax(152px, 440px) 1fr;
+    gap: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place{
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: minmax(152px, 340px) minmax(152px, 352px);
     gap: 28px;
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .place{
-    grid-template-columns: 288px;
+    grid-template-columns: minmax(288px, 100%);
     gap: 32px;
     margin-bottom: 50px;
   }

@@ -3,6 +3,7 @@
   line-height: 1.5;
   margin-right: 18px;
   text-decoration: none;
+  padding: 0;
 }
 
 .header__link:last-of-type {
@@ -13,7 +14,6 @@
 @media screen and (max-width: 425px) {
   .header__link {
     font-size: 18px;
-    line-height: 1.1;
   }
 
 }
