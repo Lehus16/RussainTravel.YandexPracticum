@@ -1,3 +1,4 @@
+<!-- Спасибо большое, очень помогли, гораздо лучше понял как работает адаптивная и отзывчивая вёрстка. Вы - отличный ревьюер :) -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -14,6 +15,7 @@
         src="images/header-logo.svg"
         alt="Карта РФ"
       />
+      <!-- Сделал контейнер для ссылок списком, но не смог обнулить стили сохранив правый отступ. Надо добавлять новый класс для этого либо ссылке либо элементу списка? Или как то ещё это можно сделать? -->
       <div class="header__links">
         <a class="link header__link header__link_active" href="#">Ru</a>
         <a class="link header__link" href="#">En</a>
@@ -25,12 +27,16 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img
+        <figure class="lead__image-container">
+          <img class="lead__image" src="images/lead-polka.jpg" alt="Вид из окна поезда с картой от Пскова до Улан-Удэ">
+          <figcaption class="lead__caption" >ваша полка — верхняя</figcaption>
+        </figure>
+        <!-- <img
           src="images/lead-polka.jpg"
           alt="Вид из окна поезда с картой от Пскова до Улан-Удэ"
           class="lead__image"
         />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <p class="lead__caption">ваша полка — верхняя</p> -->
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
