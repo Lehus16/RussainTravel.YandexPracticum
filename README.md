@@ -8,7 +8,7 @@
 * Media queries
 * Responsive design
 
-### Лэндинг корректно отображается на всех устройствах по [ссылке](https://lehus16.github.io/russian-travel/)
+### Лэндинг корректно отображается на всех устройствах по [ссылке](https://lehus16.github.io/RussainTravel.YandexPracticum/)
 
 
 
